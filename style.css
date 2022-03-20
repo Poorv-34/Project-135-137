@@ -1,0 +1,26 @@
+.note{
+    font-size: 13px;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px white;
+    margin: 0;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: slateblue;
+    bottom: 0;
+    width: 100%;
+    background-color: coral;
+    line-height: 3;
+    text-align: center;
+}
+
+body{
+    background-size: cover;
+}
+
+#input{
+    width: 20%;
+}

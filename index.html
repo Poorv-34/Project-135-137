@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Project 135-137</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        </head>
+
+        <body background="https://th.bing.com/th/id/R.ffeb0b3cc5f701aa2fc1103f4fa2f166?rik=pz9wfm0er3cJDw&riu=http%3a%2f%2f4.bp.blogspot.com%2f_HOCuXB2IC34%2fTK9IQdG1HOI%2fAAAAAAAAGog%2fZzf8gbDM064%2fs1600%2f35%2b(www.cute-pictures.blogspot.com).jpg&ehk=JMMb7HQqaHRvwC4O%2fR5QZZIrUJvXnMyOwBcxlX72GeY%3d&risl=&pid=ImgRaw&r=0">
+           <center>
+                <h1 class="btn btn-warning heading">OBJECT FINDER
+                <br>
+                <span class="note">Type the name of the object you want to detect. The name should be the same name the CoCoSSD model presents.</span>
+                </h1>
+                <br>
+                <br>
+                <br>
+                <input id="input" placeholder="Enter Object Name Here...">
+                <br>
+                <br>
+                <button class="btn btn-success" id="start" onclick="start()"></button>
+                <br>
+                <br>
+                <span id="model_status"></span>
+                <br>
+                <span id="object_status"></span>
+            </center>
+            <div class="copy_right_footer">Developed By- Poorv Patel</div>
+            
+            <script src="main.js"></script>
+         </body>
+            </html>
